@@ -37,7 +37,8 @@ I used **SQL** and **Excel** to clean and transform the data.
 ## 5. Analyze
 Key trends identified during the analysis:
 * **Usage Frequency:** Annual members take more frequent, shorter trips, likely for commuting.
-* **Weekend Peaks:** Casual riders show a significant spike in usage on weekends and during summer months.
+* **Weekend Peaks:** Data visualization reveals that casual riders average trip duration peaks on saturdays and sundays(reaching over 30 minutes)
+    and during summer months.
 * **Ride Duration:** On average, casual riders spend more time per trip compared to members.
 
 ---
