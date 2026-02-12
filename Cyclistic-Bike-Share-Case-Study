@@ -1,0 +1,59 @@
+# Case Study: Cyclistic Bike-Share Analysis
+**From Casual Riders to Annual Members**
+
+## 1. Project Overview
+This case study is part of the **Google Data Analytics Professional Certificate**. As a junior data analyst on the marketing team, 
+my goal is to analyze historical trip data to understand how annual members and casual riders use Cyclistic bikes differently. 
+These insights will help design a marketing strategy to convert casual riders into annual members, ensuring the company’s long-term growth.
+
+---
+
+## 2. Ask
+**Business Task:** Design marketing strategies aimed at converting casual riders into annual members by identifying trends in their bike usage.
+
+**Stakeholders:**
+* **Lily Moreno:** Director of Marketing.
+* **Cyclistic Marketing Analytics Team:** Responsible for data collection and analysis.
+* **Cyclistic Executive Team:** Decision-makers for the marketing program.
+
+---
+
+## 3. Prepare
+The data used for this analysis is Cyclistic’s historical trip data. 
+* **Data Source:** Public data provided by Motivate International Inc.
+* **Organization:** Monthly CSV files containing trip IDs, bike types, start/end times, and station information.
+* **Licensing:** Data made available under a specific public license.
+
+---
+
+## 4. Process
+I used **SQL** and **Excel** to clean and transform the data.
+* **Data Cleaning:** Removed duplicates and rows with missing station names.
+* **New Columns:** Created `ride_length` (calculating the duration of each trip) and `day_of_week`.
+* **Verification:** Checked for outliers, such as rides with negative durations or durations longer than 24 hours.
+
+---
+
+## 5. Analyze
+Key trends identified during the analysis:
+* **Usage Frequency:** Annual members take more frequent, shorter trips, likely for commuting.
+* **Weekend Peaks:** Casual riders show a significant spike in usage on weekends and during summer months.
+* **Ride Duration:** On average, casual riders spend more time per trip compared to members.
+
+---
+
+## 6. Share
+
+My analysis revealed that casual riders primarily use Cyclistic for leisure, while members use it as a reliable daily transport method.
+
+---
+
+## 7. Act
+Based on the data, here are my top three recommendations:
+1.  **Seasonal Promotions:** Launch summer-specific digital marketing campaigns targeting casual riders.
+2.  **Weekend Membership Plans:** Offer a "Weekend-Only" or "Leisure" membership to bridge the gap for casual riders.
+3.  **Email Marketing:** Use the ride duration data to show casual riders how much they would save annually with a membership.
+
+---
+**Author:** jai kirthana
+**Skills:** SQL, R, Excel, Tableau
